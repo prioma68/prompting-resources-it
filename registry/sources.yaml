@@ -1,0 +1,134 @@
+- id: openai-gpt55-latest-model
+  title: Using GPT-5.5
+  vendor: OpenAI
+  type: official-doc
+  url: https://developers.openai.com/api/docs/guides/latest-model
+  topics:
+    - outcome-first prompting
+    - reasoning effort
+    - structured outputs
+    - tool-heavy workflows
+    - verbosity
+  status: active
+  notes: "Fonte primaria per prompt moderni orientati a obiettivi, criteri di successo e uso di strumenti."
+
+- id: openai-prompt-engineering
+  title: Prompt engineering
+  vendor: OpenAI
+  type: official-doc
+  url: https://developers.openai.com/api/docs/guides/prompt-engineering
+  topics:
+    - prompt engineering
+    - instructions
+    - examples
+    - prompt optimization
+  status: active
+  notes: "Guida generale OpenAI sul prompt engineering."
+
+- id: openai-structured-outputs
+  title: Structured model outputs
+  vendor: OpenAI
+  type: official-doc
+  url: https://developers.openai.com/api/docs/guides/structured-outputs
+  topics:
+    - JSON schema
+    - output validation
+    - structured output
+  status: active
+  notes: "Fonte da usare quando l'output deve essere consumato da software."
+
+- id: openai-citation-formatting
+  title: Citation formatting
+  vendor: OpenAI
+  type: official-doc
+  url: https://developers.openai.com/api/docs/guides/citation-formatting
+  topics:
+    - citations
+    - grounding
+    - evidence
+  status: active
+  notes: "Fonte utile per evidence pack e risposte fondate su fonti."
+
+- id: anthropic-prompt-engineering-overview
+  title: Prompt engineering overview
+  vendor: Anthropic
+  type: official-doc
+  url: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+  topics:
+    - success criteria
+    - evals
+    - prompt improvement
+  status: active
+  notes: "Punto di partenza metodologico per Claude."
+
+- id: anthropic-prompting-best-practices
+  title: Prompting best practices
+  vendor: Anthropic
+  type: official-doc
+  url: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-best-practices
+  topics:
+    - clarity
+    - examples
+    - XML tags
+    - long context
+    - role prompting
+    - tool use
+  status: active
+  notes: "Fonte centrale per prompt complessi e strutturati."
+
+- id: google-introduction-to-prompting
+  title: Introduction to prompting
+  vendor: Google
+  type: official-doc
+  url: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/introduction-prompt-design
+  topics:
+    - prompt design
+    - prompt engineering
+    - task
+    - system instructions
+    - few-shot examples
+    - contextual information
+  status: active
+  notes: "Fonte base per definizioni e componenti del prompt."
+
+- id: google-prompt-engineering-whitepaper
+  title: Prompt Engineering
+  vendor: Google
+  type: whitepaper
+  url: https://www.kaggle.com/whitepaper-prompt-engineering
+  topics:
+    - zero-shot
+    - few-shot
+    - role prompting
+    - contextual prompting
+    - chain of thought
+    - ReAct
+    - output configuration
+  status: active
+  notes: "Whitepaper didattico utile per tassonomia delle tecniche."
+
+- id: perplexity-docs-overview
+  title: Perplexity Docs Overview
+  vendor: Perplexity
+  type: official-doc
+  url: https://docs.perplexity.ai/docs/getting-started/overview
+  topics:
+    - perplexity API
+    - overview
+    - product documentation
+  status: active
+  notes: "Fonte ufficiale generale da cui partire."
+
+- id: brex-prompt-engineering
+  title: Brex Prompt Engineering Guide
+  vendor: Brex
+  type: github-repo
+  url: https://github.com/brexhq/prompt-engineering
+  topics:
+    - prompt as source code
+    - hidden prompts
+    - embedding data
+    - citations
+    - programmatic consumption
+  status: complementary
+  notes: "Guida pratica non ufficiale, utile come case study e fonte complementare."

@@ -1,0 +1,30 @@
+{
+  "name": "prompting-resources-it",
+  "purpose": "Repository ragionata di fonti e pattern sul prompting",
+  "created_files": [
+    ".gitignore",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "docs/GITHUB_SETUP.md",
+    "practical-guides/brex-prompt-engineering.md",
+    "practical-guides/prompt-patterns.md",
+    "registry/sources.yaml",
+    "scripts/publish-github.bat",
+    "scripts/publish-github.sh",
+    "templates/prompt-card.md",
+    "templates/source-card.md",
+    "topics/00-cos-e-il-prompting.md",
+    "topics/01-anatomia-di-un-prompt.md",
+    "topics/02-contesto-ruolo-output-vincoli.md",
+    "topics/03-esempi-zero-shot-one-shot-few-shot.md",
+    "topics/04-output-strutturato-json-schema.md",
+    "topics/05-grounding-citazioni-retrieval.md",
+    "topics/06-ragionamento-validazione-e-test.md",
+    "topics/07-agentic-workflows-e-tool-use.md",
+    "vendors/anthropic-claude.md",
+    "vendors/google-gemini.md",
+    "vendors/openai.md",
+    "vendors/perplexity.md"
+  ]
+}
