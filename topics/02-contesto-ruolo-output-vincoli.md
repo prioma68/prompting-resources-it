@@ -59,3 +59,19 @@ Non aggiungere sezioni nuove.
 ## Criterio pratico
 
 Un prompt è debole quando lascia al modello troppe decisioni implicite su scopo, fonti e forma dell'output. È forte quando rende esplicite le decisioni che contano.
+
+## Fonte Anthropic / Claude collegata
+
+### Prompting best practices
+
+Fonte: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-best-practices
+
+Questa fonte è collegata a contesto, ruolo, output e vincoli perché Claude enfatizza istruzioni chiare, esempi, ruolo, struttura del prompt e separazione tra istruzioni, contesto e input.
+
+Uso pratico nella repository:
+
+- formulare istruzioni dirette;
+- dare un ruolo quando serve orientare tono e competenza;
+- usare esempi per guidare formato e stile;
+- separare contesto, input e output atteso;
+- evitare prompt vaghi o troppo impliciti.

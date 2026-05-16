@@ -41,3 +41,20 @@ Per azioni irreversibili o visibili ad altri, chiedere conferma:
 - pubblicazione;
 - invio email;
 - modifica di dati condivisi.
+
+
+## Fonte Anthropic / Claude collegata
+
+### Tool use e sistemi agentici
+
+Fonte: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-best-practices
+
+Questa fonte è collegata ai workflow agentici perché tratta uso degli strumenti, azione proattiva, gestione del contesto, prompt chaining, subagenti e sicurezza nelle azioni.
+
+Uso pratico nella repository:
+
+- distinguere quando il modello deve solo rispondere e quando deve agire;
+- rendere esplicito l'uso degli strumenti;
+- evitare azioni distruttive senza conferma;
+- progettare workflow multi-step con controllo finale;
+- documentare azioni completate, limiti e blocchi.

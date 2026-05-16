@@ -57,3 +57,19 @@ Gli esempi devono essere:
 - vicini al caso d'uso reale.
 
 Un esempio sbagliato può insegnare al modello il comportamento sbagliato.
+
+
+## Fonte Anthropic / Claude collegata
+
+### Esempi e multishot prompting
+
+Fonte: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-best-practices
+
+Questa fonte è collegata a zero-shot, one-shot e few-shot perché raccomanda esempi rilevanti, diversi e strutturati per orientare il formato, il tono e il comportamento del modello.
+
+Uso pratico nella repository:
+
+- usare esempi quando il formato dell'output è importante;
+- includere casi limite;
+- evitare esempi ambigui o contraddittori;
+- preferire pochi esempi di qualità rispetto a molti esempi rumorosi.
