@@ -33,3 +33,18 @@ Nei sistemi API moderni, quando disponibile, è preferibile usare funzionalità 
 ## Regola editoriale
 
 Se l'output ha valore operativo, chiedi anche una sezione `assunzioni` o `punti_da_verificare`.
+
+## Fonte OpenAI collegata
+
+### Structured outputs
+
+Fonte: https://developers.openai.com/api/docs/guides/structured-outputs
+
+Questa fonte è collegata agli output strutturati perché chiarisce quando non basta chiedere al modello di "rispondere in JSON", ma serve progettare un formato stabile, validabile e adatto a essere consumato da software.
+
+Uso pratico nella repository:
+
+- distinguere output leggibili da persone e output consumabili da software;
+- collegare JSON, schema e validazione;
+- mostrare perché gli output strutturati riducono ambiguità;
+- costruire prompt riutilizzabili per estrazione dati, classificazione e automazioni.

@@ -35,3 +35,19 @@ Quando costruisci un prompt riutilizzabile, testa almeno:
 - input rumoroso;
 - output troppo lungo;
 - richiesta fuori ambito.
+
+
+## Fonte OpenAI collegata
+
+### Reasoning best practices
+
+Fonte: https://developers.openai.com/api/docs/guides/reasoning-best-practices
+
+Questa fonte è collegata a ragionamento, validazione e test perché aiuta a progettare prompt per compiti complessi, verifiche, uso controllato del ragionamento e controllo qualità finale.
+
+Uso pratico nella repository:
+
+- decidere quando serve più ragionamento;
+- evitare prompt inutilmente lunghi o troppo prescrittivi;
+- aggiungere criteri di verifica;
+- collegare reasoning, tool use e validazione dell'output.

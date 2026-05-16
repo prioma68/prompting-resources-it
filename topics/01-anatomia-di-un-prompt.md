@@ -42,3 +42,18 @@ Serve più dettaglio quando:
 - il compito è ripetitivo o produttivo;
 - bisogna ridurre allucinazioni;
 - l'output verrà usato da software o da un workflow.
+
+## Fonte OpenAI collegata
+
+### Using GPT-5.5
+
+Fonte: https://developers.openai.com/api/docs/guides/latest-model
+
+Questa fonte è collegata all'anatomia del prompt perché rafforza un principio moderno: partire dall'esito desiderato, dai criteri di successo, dai vincoli e dalle condizioni di stop, invece di prescrivere sempre una sequenza rigida di passaggi.
+
+Uso pratico nella repository:
+
+- costruire prompt outcome-first;
+- definire criteri di successo;
+- separare obiettivo, vincoli, fonti disponibili e formato finale;
+- ridurre prompt troppo lunghi o meccanici quando non servono.

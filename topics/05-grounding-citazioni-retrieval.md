@@ -34,3 +34,18 @@ Per ricerche importanti, produrre un evidence pack:
 - citazioni;
 - incertezze;
 - conclusione.
+
+## Fonte OpenAI collegata
+
+### Citation formatting
+
+Fonte: https://developers.openai.com/api/docs/guides/citation-formatting
+
+Questa fonte è collegata a grounding, citazioni e retrieval perché riguarda il modo in cui una risposta deve rendere verificabili le affermazioni fondate su fonti.
+
+Uso pratico nella repository:
+
+- collegare ogni affermazione importante a una fonte;
+- distinguere fatti supportati, inferenze e punti non verificati;
+- costruire evidence pack;
+- evitare che l'assenza di una fonte venga trasformata automaticamente in una conclusione.
