@@ -73,3 +73,20 @@ Uso pratico nella repository:
 - includere casi limite;
 - evitare esempi ambigui o contraddittori;
 - preferire pochi esempi di qualità rispetto a molti esempi rumorosi.
+
+## Fonte Google / Gemini collegata
+
+### Zero-shot, one-shot e few-shot
+
+Fonte: https://www.kaggle.com/whitepaper-prompt-engineering
+
+Questa fonte è collegata a zero-shot, one-shot e few-shot perché presenta queste tecniche come base del prompt engineering e mostra come gli esempi guidano formato, pattern e comportamento del modello.
+
+Uso pratico nella repository:
+
+- spiegare la differenza tra prompt senza esempi e prompt con esempi;
+- documentare quando usare zero-shot, one-shot o few-shot;
+- ricordare che gli esempi devono essere pertinenti, diversi e ben scritti;
+- collegare gli esempi alla robustezza dell'output.
+
+

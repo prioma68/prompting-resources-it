@@ -51,3 +51,19 @@ Uso pratico nella repository:
 - evitare prompt inutilmente lunghi o troppo prescrittivi;
 - aggiungere criteri di verifica;
 - collegare reasoning, tool use e validazione dell'output.
+
+
+## Fonte Google / Gemini collegata
+
+### Chain of Thought, self-consistency e ReAct
+
+Fonte: https://www.kaggle.com/whitepaper-prompt-engineering
+
+Questa fonte è collegata a ragionamento, validazione e test perché descrive tecniche come Chain of Thought, self-consistency, Tree of Thoughts e ReAct, utili per compiti complessi che richiedono ragionamento o uso di strumenti.
+
+Uso pratico nella repository:
+
+- distinguere compiti semplici da compiti che richiedono ragionamento multi-step;
+- collegare ragionamento e verifica;
+- introdurre ReAct come pattern ragiona-agisci;
+- evidenziare costi, limiti e necessità di validazione.

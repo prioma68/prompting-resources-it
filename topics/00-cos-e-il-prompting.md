@@ -31,3 +31,19 @@ Un buon prompt deve rispondere a queste domande:
 3. Quali limiti deve rispettare?
 4. In quale forma deve restituire il risultato?
 5. Come capisco se la risposta è buona?
+
+
+## Fonte Google / Gemini collegata
+
+### Introduction to prompting
+
+Fonte: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/introduction-prompt-design
+
+Questa fonte è collegata alla definizione di prompting perché descrive il prompt come una richiesta in linguaggio naturale che può includere domande, istruzioni, contesto, esempi e input parziale.
+
+Uso pratico nella repository:
+
+- definire il prompting in modo semplice;
+- distinguere prompting e prompt engineering;
+- chiarire i componenti principali di un prompt;
+- introdurre task, system instructions, few-shot examples e contextual information.
