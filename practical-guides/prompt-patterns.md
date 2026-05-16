@@ -62,6 +62,7 @@ Campi:
 - limiti;
 - sezione consigliata;
 - priorità: alta/media/bassa.
+```
 
 ## 5. Prompt per ricerca operativa
 
@@ -79,6 +80,7 @@ Output:
 - tabella delle fonti;
 - implicazioni operative;
 - punti da verificare.
+```
 
 ## 6. Prompt per workflow multi-step
 
@@ -96,5 +98,4 @@ Formato:
 - tabella dei punti principali;
 - raccomandazioni;
 - prossime azioni.
-```
 ```

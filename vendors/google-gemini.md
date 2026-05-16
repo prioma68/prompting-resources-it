@@ -32,6 +32,7 @@ Questa sezione raccoglie fonti Google su prompt design, prompt engineering, task
 
 - Tipo: whitepaper
 - URL: https://www.kaggle.com/whitepaper-prompt-engineering
+- PDF locale: [google-prompt-engineering-whitepaper.pdf](../assets/pdfs/google/google-prompt-engineering-whitepaper.pdf)
 - Argomenti: zero-shot, one-shot, few-shot, role prompting, contextual prompting, CoT, ReAct, output configuration.
 - Nota: fonte ampia e didattica, adatta a una tassonomia delle tecniche.
 
