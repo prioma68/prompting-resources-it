@@ -1,0 +1,31 @@
+# Template per aggiungere nuove fonti alla repository Prompting.
+# Usare un file o una sezione per ogni blocco di fonti.
+
+batch:
+  id: batch_001
+  date: YYYY-MM-DD
+  owner: TBD
+  priority: alta # alta | media | bassa
+  objective: "es. migliorare agenti, retrieval, tools, deep research, coding"
+  notes: "eventuali indicazioni"
+
+sources:
+  - id: TBD
+    vendor: openai # openai | anthropic | google | perplexity | other
+    title: TBD
+    source_type: pdf # pdf | web_page | guide | whitepaper | docs | blog | repository
+    access: uploaded_pdf # uploaded_pdf | uploaded_text | official_url
+    local_reference: TBD # nome file locale se caricato
+    canonical_url: TBD # URL ufficiale se disponibile
+    language: en # en | it | other
+    topics:
+      - prompting
+      - agents
+    intended_use:
+      - search
+      - comparison
+      - llm_grounding
+    ingestion_status: pending # pending | processed_draft | reviewed
+    license_status: link_only_plus_transformed_notes
+    freshness: needs_periodic_check # static | versioned | needs_periodic_check
+    comments: TBD

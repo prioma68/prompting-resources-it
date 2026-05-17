@@ -1,5 +1,10 @@
-.DS_Store
-Thumbs.db
-.env
-*.log
 __pycache__/
+*.pyc
+.venv/
+.env
+data/raw/*
+!data/raw/.gitkeep
+data/indexes/bm25/*
+!data/indexes/bm25/.gitkeep
+data/indexes/vector/*
+!data/indexes/vector/.gitkeep

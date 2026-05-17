@@ -1,26 +1,25 @@
 # Contributing
 
-Questa repository accetta contributi sotto forma di nuove fonti, correzioni, schede tematiche e prompt pattern.
+## Adding a source
 
-## Come aggiungere una fonte
+Use `intake/new_sources_template.yaml` as the intake format. For each new source, provide:
 
-1. Crea una scheda usando `templates/source-card.md`.
-2. Aggiungi la fonte a `registry/sources.yaml`.
-3. Inserisci il link nella pagina vendor o topic pertinente.
-4. Specifica sempre tipo di fonte, utilità e limiti.
+- vendor
+- title
+- canonical URL, if available
+- local file name, if PDF
+- topic tags
+- priority
+- notes about why the source matters
 
-## Criteri minimi
+Then update:
 
-Una fonte deve essere:
+1. `sources/registry.yaml`
+2. `sources/{vendor}/notes/{source_id}.md`
+3. `data/processed/documents.jsonl`
+4. `data/processed/chunks.jsonl`
+5. `tests/test_queries.md` when relevant
 
-- collegata al prompting o all'uso operativo di LLM;
-- utile per comprendere tecniche, workflow o criteri di qualità;
-- accompagnata da una nota sul livello di affidabilità;
-- preferibilmente primaria o ufficiale, se riguarda un vendor.
+## Chunk rules
 
-## Cosa evitare
-
-- Copiare intere guide o documenti protetti.
-- Inserire link senza spiegazione.
-- Mescolare fonti ufficiali e opinioni senza etichettarle.
-- Presentare come attuali informazioni non verificate.
+Chunks should be transformed summaries, not long copied passages. Each chunk should have stable metadata, tags and a source reference.

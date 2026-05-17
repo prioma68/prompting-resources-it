@@ -1,0 +1,108 @@
+sources:
+  - id: openai_gpt55_prompting_guide
+    vendor: openai
+    title: GPT-5.5 prompting guide
+    source_type: guide
+    access: uploaded_text
+    canonical_url: TBD
+    local_reference: Guida-Open-AI.txt
+    version_or_date: unknown
+    language: en
+    topics:
+      - prompting
+      - retrieval
+      - grounding
+      - validation
+      - agentic_workflows
+    ingestion_status: processed_v0_1
+    license_status: link_only_plus_transformed_notes
+    freshness: needs_url_verification
+    priority: seed
+
+  - id: anthropic_claude_best_practices_it
+    vendor: anthropic
+    title: Migliori pratiche di prompting Claude
+    source_type: docs_export
+    access: uploaded_text
+    canonical_url: TBD
+    local_reference: claude-best-practice.txt
+    version_or_date: unknown
+    language: it
+    topics:
+      - prompting
+      - xml
+      - long_context
+      - tool_use
+      - agents
+      - thinking
+    ingestion_status: processed_v0_1
+    license_status: link_only_plus_transformed_notes
+    freshness: needs_url_verification
+    priority: seed
+
+  - id: google_prompt_engineering_whitepaper_2025
+    vendor: google
+    title: Prompt Engineering
+    source_type: pdf_whitepaper
+    access: uploaded_pdf
+    canonical_url: TBD
+    local_reference: 22365_3_Prompt Engineering_v7 (1).pdf
+    version_or_date: 2025-02
+    language: en
+    topics:
+      - prompting
+      - llm_config
+      - react
+      - cot
+      - schemas
+      - code_prompting
+    ingestion_status: processed_v0_1
+    license_status: link_only_plus_transformed_notes
+    freshness: versioned_static
+    priority: seed
+
+  - id: perplexity_at_work_guide
+    vendor: perplexity
+    title: "Perplexity at Work: A Guide to Getting More Done"
+    source_type: pdf_guide
+    access: uploaded_pdf
+    canonical_url: TBD
+    local_reference: pplx-at-work.pdf
+    version_or_date: unknown
+    language: en
+    topics:
+      - research
+      - agents
+      - workflow_automation
+      - spaces
+      - labs
+      - comet
+    ingestion_status: processed_v0_1
+    license_status: link_only_plus_transformed_notes
+    freshness: needs_url_verification
+    priority: seed
+
+  - id: brex_prompt_engineering_guide
+    vendor: brex
+    title: Brex's Prompt Engineering Guide
+    source_type: practitioner_guide
+    access: public_github
+    canonical_url: https://github.com/brexhq/prompt-engineering/blob/main/README.md
+    local_reference: remote:brexhq/prompt-engineering/README.md
+    version_or_date: 2023-living-document
+    language: en
+    topics:
+      - production_prompting
+      - hidden_prompts
+      - prompt_security
+      - context_assembly
+      - semantic_search
+      - command_grammars
+      - structured_output
+      - reasoning
+      - fine_tuning
+    ingestion_status: processed_v0_1_3
+    license_status: mit_link_plus_transformed_notes
+    freshness: practitioner_living_document_needs_periodic_review
+    priority: secondary_practitioner
+
