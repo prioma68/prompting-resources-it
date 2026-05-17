@@ -49,3 +49,38 @@ Uso pratico nella repository:
 - distinguere fatti supportati, inferenze e punti non verificati;
 - costruire evidence pack;
 - evitare che l'assenza di una fonte venga trasformata automaticamente in una conclusione.
+
+## Fonte Perplexity collegata
+
+### Ricerca, sintesi e risposte con fonti
+
+Fonte: https://docs.perplexity.ai/docs/getting-started/overview
+
+Questa fonte è collegata a grounding, citazioni e retrieval perché Perplexity è centrato su ricerca, sintesi e risposte fondate su fonti. Nella repository serve come riferimento per collegare prompting, ricerca web, sintesi e tracciabilità delle informazioni.
+
+Uso pratico nella repository:
+
+- formulare richieste di ricerca basate su obiettivi;
+- chiedere sintesi con fonti;
+- distinguere ricerca semplice da ricerca approfondita;
+- trasformare risultati di ricerca in report, tabelle o schede operative.
+
+## Fonte Perplexity collegata
+
+### Ricerca, sintesi e risposte con fonti
+
+Fonti:
+- https://docs.perplexity.ai/docs/getting-started/overview
+- https://docs.perplexity.ai/docs/sonar/prompt-guide.md
+- https://docs.perplexity.ai/docs/cookbook/articles/streaming-citations/README.md
+- `assets/pdfs/perplexity/perplexity-at-work.pdf`
+
+Questa fonte è collegata a grounding, citazioni e retrieval perché Perplexity è centrato su ricerca, sintesi e risposte basate su fonti. Nella repository serve per mostrare come trasformare una ricerca in un output verificabile, citabile e utile per il lavoro.
+
+Uso pratico nella repository:
+
+- formulare richieste di ricerca basate su obiettivi;
+- chiedere sintesi con fonti e punti da verificare;
+- distinguere fatti supportati, inferenze e punti incerti;
+- costruire evidence pack;
+- trasformare risultati di ricerca in report, tabelle, briefing o schede operative.

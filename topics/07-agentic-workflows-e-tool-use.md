@@ -58,3 +58,39 @@ Uso pratico nella repository:
 - evitare azioni distruttive senza conferma;
 - progettare workflow multi-step con controllo finale;
 - documentare azioni completate, limiti e blocchi.
+
+
+## Fonte Perplexity collegata
+
+### Workflow multi-step, Comet, Spaces e automazioni
+
+Fonte: https://docs.perplexity.ai/docs/getting-started/overview
+
+Questa fonte è collegata ai workflow agentici perché Perplexity viene usato spesso come strumento operativo per ricerca, sintesi, automazione, navigazione assistita, organizzazione del contesto e produzione di deliverable.
+
+Uso pratico nella repository:
+
+- costruire prompt multi-step;
+- collegare ricerca e produzione di output;
+- organizzare contesto e fonti in Spaces;
+- trasformare domande in workflow operativi;
+- creare report, dashboard, briefing e materiali di lavoro.
+
+## Fonte Perplexity collegata
+
+### Workflow multi-step, Agent API, Comet, Spaces e automazioni
+
+Fonti:
+- https://docs.perplexity.ai/docs/agent-api/prompt-guide.md
+- https://docs.perplexity.ai/docs/cookbook/articles/async-deep-research/README.md
+- `assets/pdfs/perplexity/perplexity-at-work.pdf`
+
+Questa fonte è collegata ai workflow agentici perché descrive un uso dell'AI orientato ad azioni, ricerca, sintesi, automazione, gestione del contesto e produzione di deliverable professionali.
+
+Uso pratico nella repository:
+
+- costruire prompt multi-step;
+- collegare ricerca, analisi e produzione di output;
+- usare contesto, fonti e istruzioni in modo ordinato;
+- trasformare domande in workflow operativi;
+- produrre report, dashboard, briefing, presentazioni e materiali di lavoro.

@@ -119,6 +119,92 @@
   status: active
   notes: "Fonte ufficiale generale da cui partire."
 
+- id: perplexity-docs-index-llms
+  title: Perplexity Docs Index
+  vendor: Perplexity
+  type: official-doc
+  url: https://docs.perplexity.ai/llms.txt
+  topics:
+    - docs index
+    - api documentation
+    - agent api
+    - sonar
+    - citations
+  status: active
+  notes: "Indice ufficiale delle pagine Perplexity, utile per trovare rapidamente documentazione tecnica aggiornata."
+
+- id: perplexity-agent-api-prompt-guide
+  title: Agent API Prompt Guide
+  vendor: Perplexity
+  type: official-doc
+  url: https://docs.perplexity.ai/docs/agent-api/prompt-guide.md
+  topics:
+    - agent api
+    - prompt guide
+    - agentic workflows
+    - tool use
+    - multi-step research
+  status: active
+  notes: "Guida ufficiale per scrivere prompt efficaci con Agent API."
+
+- id: perplexity-sonar-prompt-guide
+  title: Sonar Prompt Guide
+  vendor: Perplexity
+  type: official-doc
+  url: https://docs.perplexity.ai/docs/sonar/prompt-guide.md
+  topics:
+    - sonar
+    - search
+    - grounding
+    - citations
+    - retrieval
+  status: active
+  notes: "Guida ufficiale per prompt Sonar, utile per ricerca, risposte con fonti e grounding."
+
+- id: perplexity-deep-research-workflows
+  title: Deep Research Workflows
+  vendor: Perplexity
+  type: official-doc
+  url: https://docs.perplexity.ai/docs/cookbook/articles/async-deep-research/README.md
+  topics:
+    - deep research
+    - workflow multi-step
+    - research automation
+    - reports
+  status: active
+  notes: "Cookbook ufficiale per workflow di ricerca approfondita e report strutturati."
+
+- id: perplexity-streaming-citation-parsing
+  title: Streaming Citation Parsing
+  vendor: Perplexity
+  type: official-doc
+  url: https://docs.perplexity.ai/docs/cookbook/articles/streaming-citations/README.md
+  topics:
+    - citations
+    - streaming
+    - citation parsing
+    - source validation
+  status: active
+  notes: "Cookbook ufficiale per estrarre, validare e mostrare citazioni in risposte streaming."
+
+- id: perplexity-at-work
+  title: Perplexity at Work
+  vendor: Perplexity
+  type: practical-guide
+  url: assets/pdfs/perplexity/perplexity-at-work.pdf
+  topics:
+    - work prompting
+    - research
+    - automation
+    - workflow multi-step
+    - deliverables
+    - spaces
+    - comet
+    - labs
+  status: active
+  notes: "Guida pratica locale per usare Perplexity nel lavoro: ricerca, sintesi, automazione, Spaces, Comet, Labs e creazione di deliverable professionali."
+
+
 - id: brex-prompt-engineering
   title: Brex Prompt Engineering Guide
   vendor: Brex
@@ -132,3 +218,4 @@
     - programmatic consumption
   status: complementary
   notes: "Guida pratica non ufficiale, utile come case study e fonte complementare."
+
