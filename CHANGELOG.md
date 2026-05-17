@@ -1,5 +1,17 @@
-# CHANGELOG
+﻿# CHANGELOG
 
+## v0.1.4
+
+- Aggiunti file di governo progetto in docs/project_control/.
+- Aggiunta mappa delle conversazioni del progetto Prompting.
+- Aggiunto stato corrente della repository dopo la release v0.1.3.
+- Aggiunto decision log con decisioni editoriali e operative giÃ  prese.
+- Aggiunto release log sintetico.
+- Aggiunto protocollo standard di handoff tra conversazioni.
+- Aggiunto protocollo di valutazione nuove fonti.
+- Nessuna nuova fonte aggiunta.
+- Nessuna modifica alla knowledge base processata.
+- Nessuna modifica alla logica degli script.
 ## v0.1.3
 
 - Assestata l'integrazione Brex rispetto a `conv3.txt` e al report di audit v0.1.2.
@@ -40,3 +52,4 @@
 - Aggiunte quattro fonti iniziali.
 - Creati registry, note, chunks, concepts e reports.
 - Implementato `search.py` semplice.
+
