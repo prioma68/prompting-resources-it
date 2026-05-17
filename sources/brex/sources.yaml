@@ -1,0 +1,13 @@
+vendor: brex
+sources:
+  - id: brex_prompt_engineering_guide
+    title: Brex's Prompt Engineering Guide
+    source_type: practitioner_guide
+    canonical_url: https://github.com/brexhq/prompt-engineering/blob/main/README.md
+    license_url: https://github.com/brexhq/prompt-engineering/blob/main/LICENSE
+    license_status: mit_link_plus_transformed_notes
+    role_in_repository: secondary_practitioner
+    ingestion_status: processed_v0_1_3
+    notes:
+      - sources/brex/notes/brex_prompt_engineering_guide.md
+      - notes/cross_vendor/production_prompting/
