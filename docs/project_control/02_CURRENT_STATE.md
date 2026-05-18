@@ -34,3 +34,10 @@ La v0.1.4 Ã¨ dedicata solo ai file di governo progetto.
 - Non aggiunge nuove fonti.
 - Non modifica la knowledge base.
 - Non modifica la logica degli script.
+
+## Aggiornamento v0.1.5
+
+- Release target: v0.1.5 - Runtime guardrails and LLM safety.
+- Arthur Shield / Arthur AI integrata come fonte secondaria strategica.
+- Corpus atteso dopo integrazione: 6 documenti, 56 chunk, 57 concetti.
+- I file di governo v0.1.4 sono preservati.

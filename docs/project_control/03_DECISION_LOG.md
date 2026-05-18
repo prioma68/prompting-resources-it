@@ -17,3 +17,11 @@ La Brex Prompt Engineering Guide non deve essere importata integralmente. Vanno 
 ## DEC-0004 - Brex integrata come fonte secondaria/practitioner
 
 Brex Ã¨ integrata come fonte pratica complementare, non come fonte primaria. Le fonti primarie restano OpenAI, Anthropic/Claude, Google/Gemini e Perplexity.
+
+## DEC-0005 - Arthur Shield come fonte secondaria strategica
+
+Decisione: integrare Arthur Shield / Arthur AI come fonte secondaria strategica per runtime guardrails e LLM safety.
+
+Motivazione: Arthur aggiunge valore sui controlli a runtime, inclusi validate_prompt, validate_response, hallucination detection, prompt injection detection, sensitive data leakage e PII leakage.
+
+Implicazione: Arthur non diventa fonte primaria di prompt engineering; serve a rafforzare la distinzione tra prompt engineering, production prompting e runtime guardrails.

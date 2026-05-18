@@ -1,6 +1,6 @@
 # AI Docs Repository - Prompting
 
-Repository v0.1.3 per organizzare e interrogare fonti ufficiali su prompting, agenti, deep research e workflow AI.
+Repository v0.1.5 per organizzare e interrogare fonti ufficiali su prompting, agenti, deep research e workflow AI.
 
 Questa repository nasce come progetto pilota. La v0.1 e stata validata su quattro fonti seed, poi estesa con Brex come fonte secondaria/practitioner:
 
@@ -9,15 +9,16 @@ Questa repository nasce come progetto pilota. La v0.1 e stata validata su quattr
 - Google/Gemini - Prompt Engineering whitepaper
 - Perplexity - Perplexity at Work
 - Brex - Prompt Engineering Guide (fonte secondaria/practitioner)
+- Arthur Shield / Arthur AI - Agent Development Toolkit (fonte secondaria strategica runtime guardrails)
 
 La strategia e leggera e scalabile: non trattiamo la repo come una cartella di PDF. Conserviamo metadati, note trasformate, chunk sintetici, riferimenti alle fonti e script per ricerca e preparazione di evidence pack.
 
 ## Stato attuale
 
-Funzionante in v0.1.3:
+Funzionante in v0.1.5:
 
 - catalogo fonti in `sources/registry.yaml`
-- note Markdown per le fonti seed e per Brex come fonte secondaria/practitioner
+- note Markdown per le fonti seed, Brex come fonte practitioner e Arthur Shield come fonte runtime guardrails
 - corpus interrogabile in `data/processed/chunks.jsonl`
 - ricerca locale con `scripts/search.py`
 - filtri `--vendor`, `--topic`, `--top-k`, `--json`
@@ -25,6 +26,7 @@ Funzionante in v0.1.3:
 - test manuali eseguiti su Windows CMD
 - documentazione per estendere la repo con molti PDF/link
 - `compare_sources.py` come preparatore di evidence pack, non come generatore finale
+- note su runtime guardrails e safety tools in `notes/tools/llm_guardrails_and_safety_tools.md`
 
 Preparato ma non ancora completo:
 
@@ -47,6 +49,7 @@ scripts/search.py                 # ricerca full-text semplice
 scripts/compare_sources.py        # evidence pack per confronti tra fonti
 reports/vendor_matrix.md          # confronto tra vendor/fonti
 notes/cross_vendor/production_prompting/ # note practitioner su production prompting
+notes/tools/llm_guardrails_and_safety_tools.md # guardrail runtime e LLM safety
 reports/v0.1_test_report.md       # test manuali v0.1
 docs/windows_quickstart.md        # uso base da Windows CMD
 docs/llm_integration_principles.md # principi per aggancio LLM controllato

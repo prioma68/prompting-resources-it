@@ -1,5 +1,16 @@
 ﻿# CHANGELOG
 
+## v0.1.5
+
+- Integrata Arthur Shield / Arthur AI come fonte secondaria strategica per runtime guardrails e LLM safety.
+- Creato 
+otes/tools/llm_guardrails_and_safety_tools.md con validate_prompt, validate_response, hallucination detection, prompt injection detection, sensitive data leakage, PII leakage, custom rules e rule governance.
+- Aggiornate note cross-vendor su prompt hacking/leakage, context assembly e semantic search/RAG per collegare Arthur al principio: il prompt non e' una barriera di sicurezza.
+- Aggiunta fonte Arthur in sources/registry.yaml, metadata in sources/arthur/sources.yaml e nota trasformata in sources/arthur/notes/.
+- Aggiunto documento Arthur in documents.jsonl, chunk sintetici e tracciabili in chunks.jsonl, e concetti guardrail/privacy/safety in concepts.jsonl.
+- Aggiunti report 0.1.5_change_audit.md, 0.1.5_test_report.md ed evidence pack evidence_pack_v0.1.5_prompt_security.md.
+- Aggiunto handoff release in docs/project_control/handoffs/HANDOFF_v0.1.5_RUNTIME_GUARDRAILS.md senza sostituire il protocollo generale di handoff.
+- Esclusi intenzionalmente benchmark numerici, costi, latenze, claim commerciali, dettagli di setup ed esempi API completi.
 ## v0.1.4
 
 - Aggiunti file di governo progetto in docs/project_control/.
@@ -52,4 +63,5 @@
 - Aggiunte quattro fonti iniziali.
 - Creati registry, note, chunks, concepts e reports.
 - Implementato `search.py` semplice.
+
 
