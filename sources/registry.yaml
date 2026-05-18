@@ -63,7 +63,7 @@ sources:
 
   - id: perplexity_at_work_guide
     vendor: perplexity
-    title: "Perplexity at Work: A Guide to Getting More Done"
+    title: Perplexity at Work: A Guide to Getting More Done
     source_type: pdf_guide
     access: uploaded_pdf
     canonical_url: TBD
@@ -106,3 +106,42 @@ sources:
     freshness: practitioner_living_document_needs_periodic_review
     priority: secondary_practitioner
 
+
+
+  - id: arthur_shield_agent_development_toolkit
+    vendor: arthur_ai
+    title: Arthur Shield / Arthur AI - Agent Development Toolkit
+    source_type: product_documentation_guardrails
+    access: public_web_plus_user_notes
+    canonical_url: https://www.arthur.ai/agent-development-toolkit
+    local_reference: AI shield.txt; 07 appunti ai shield.txt
+    version_or_date: docs_updated_6_months_ago_in_uploaded_capture
+    language: en
+    topics:
+      - runtime_safety
+      - llm_guardrails
+      - validate_prompt
+      - validate_response
+      - prompt_injection_detection
+      - hallucination_detection
+      - sensitive_data_leakage
+      - pii_leakage
+      - custom_rules
+      - rule_configuration
+    ingestion_status: processed_v0_1_5
+    license_status: link_only_plus_transformed_notes
+    freshness: product_docs_snapshot_needs_periodic_review
+    priority: secondary_strategic
+    role: runtime_guardrails_and_llm_safety
+    use_for:
+      - rule_placement
+      - runtime_guardrails
+      - claim_by_claim_evaluation
+      - privacy_leakage_controls
+      - default_rules_and_task_rules
+    avoid_for:
+      - prompt_engineering_primary_guidance
+      - benchmark_numbers
+      - cost_or_latency_claims
+      - full_api_setup_examples
+      - commercial_claims

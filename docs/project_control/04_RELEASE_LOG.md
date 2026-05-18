@@ -36,3 +36,20 @@ Vincoli:
 - nessuna nuova fonte;
 - nessuna modifica alla knowledge base;
 - nessuna modifica alla logica degli script.
+
+## v0.1.5 - Runtime guardrails and LLM safety
+
+Focus: integrazione Arthur Shield / Arthur AI come fonte secondaria strategica per runtime guardrails e LLM safety.
+
+Contenuti principali:
+
+- Arthur aggiunta a registry, documents, chunks e concepts.
+- Nuova nota tools su LLM guardrails and safety tools.
+- Report v0.1.5 e evidence pack su prompt security.
+- Handoff dedicato in docs/project_control/handoffs/.
+
+Vincoli:
+
+- fonti primarie vendor preservate;
+- file di governo v0.1.4 preservati;
+- Arthur classificata come fonte secondaria strategica.
